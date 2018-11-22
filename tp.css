@@ -1,76 +1,136 @@
-div{
-    width: 100px;
+div {
+    width: 80px;
     height: 100px;
     border: dashed black 1px;
     text-align: center;
     border-radius: 5px;
 }
-.atomico{
+
+.atomico {
     font-size: 15px;
     line-height: 0px;
 }
-.simbolo{
+
+.simbolo {
     font-size: 25px;
     line-height: 0px;
 }
-.nombre{
+
+.nombre {
     font-size: 13px;
     line-height: 0px;
 }
-.peso{
+
+.peso {
     font-size: 10px;
     line-height: 0px;
 }
-.gas{
+
+.gas {
     background: #0cc;
     -webkit-transition-duration: 0.9s;
 }
-.gas:hover{
+
+.gas:hover {
     background: #6ff;
     -webkit-transform: scale(1.2);
 }
 
-.alcalino{
+.alcalino {
     background: #fb2;
     -webkit-transition-duration: 0.9s;
-
 }
-.alcalino:hover{
+
+.alcalino:hover {
     background: #fb7;
     -webkit-transform: scale(1.2);
 }
-#eq1{
-    position: absolute;
-    top: 100px;left:100px;
 
+.alcalinoterreo {
+    float: right;  
+    background: #d1660e;
+    -webkit-transition-duration: 0.9s;
 }
-#eq3{
-    position: absolute;
-    top: 200px;left:100px;
 
+.alcalinoterreo:hover {
+    background: #fb7;
+    -webkit-transform: scale(1.2);
 }
-#eq11{
-    position: absolute;
-    top: 300px;left:100px;
 
-}
-#eq19{
+#eq1 {
+        position: absolute;
+        top: 70px;
+        left: 100px;
+    } 
+#eq3 {
     position: absolute;
-    top: 400px;left:100px;
-
+    top: 170px;
+    left: 100px;
 }
-#eq37{
+
+#eq11 {
     position: absolute;
-    top: 500px;left:100px;
-
+    top: 270px;
+    left: 100px;
 }
-#eq55{
+
+#eq19 {
     position: absolute;
-    top: 600px;left:100px;
-
+    top: 370px;
+    left: 100px;
 }
-#eq87{
+
+#eq37 {
     position: absolute;
-    top: 700px;left:100px;
-
+    top: 470px;
+    left: 100px;
 }
+
+#eq55 {
+    position: absolute;
+    top: 570px;
+    left: 100px;
+}
+
+#eq87 {
+    position: absolute;
+    top: 670px;
+    left: 100px;
+}
+
+ #eq4 { 
+        position: absolute;
+        top: 170px;
+        right:0px;
+        left:180px;
+     } 
+     #eq12 { 
+        position: absolute;
+        top: 270px;
+        right:0px;
+        left:180px;
+      } 
+     #eq20 { 
+        position: absolute;
+        top: 370px;
+        right:0px;
+        left:180px;
+     } 
+     #eq38 { 
+        position: absolute;
+        top: 470px;
+        right:0px;
+        left:180px;
+     } 
+     #eq56 { 
+        position: absolute;
+        top: 570px;
+        right:0px;
+        left:180px;
+     } 
+     #eq88 { 
+        position: absolute;
+        top: 670px;
+        right:0px;
+        left:180px;
+     }  
