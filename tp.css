@@ -6,6 +6,73 @@ div {
     border-radius: 5px;
 }
 
+.texto {
+    text-align: right;
+    margin-top: 95px;
+    margin-right: 870px;
+     font-family: 'Trebuchet MS'; 
+}
+.texto1 {
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 825px;
+     font-family: 'Trebuchet MS'; 
+}
+.texto2 {
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 825px;
+    font-family: 'Trebuchet MS'; 
+}
+
+.texto3 {
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 780px;
+     font-family: 'Trebuchet MS'; 
+}
+
+.texto4 {
+    text-align: right;
+    margin-top: 35px;
+    margin-right: 855px;
+    font-family: 'Trebuchet MS'; 
+    
+}
+.texto5 {
+    text-align: right;
+    margin-top: -185px;
+    margin-right: 625px;
+    font-family: 'Trebuchet MS';
+}
+.texto6 {
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 570px;
+    font-family: 'Trebuchet MS';
+} 
+.texto7 {
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 610px;
+    font-family: 'Trebuchet MS';
+}
+.texto8 {
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 600px;
+    font-family: 'Trebuchet MS';
+} 
+
+
+.caja {
+    width: 30px;
+    height: 40px;
+    text-align: left;
+    border-radius: 5px;
+    
+}
+
 .atomico {
     font-size: 15px;
     line-height: 0px;
@@ -62,13 +129,43 @@ div {
     -webkit-transition-duration: 0.9s;
 }
 
-.gasnoble {
+.metalbloquep {
     background: #0cc;
     -webkit-transition-duration: 0.9s;
 }
 
-.gasnoble:hover {
-    ackground: #05a0ac81;
+.nometales {
+    background: rgb(49, 135, 248);
+    -webkit-transition-duration: 0.9s;
+}
+
+.transparente {
+    background: rgb(253, 253, 253);
+    -webkit-transition-duration: 0.9s;
+}
+
+.gassesnobles {
+    background: #06D964;
+    -webkit-transition-duration: 0.9s;
+}
+
+.gassesnobles:hover {
+    background: #57E0AD;
+    -webkit-transform: scale(1.2);
+}
+
+.transparente:hover {
+    background: #fcfcfc;
+    -webkit-transform: scale(1.2);
+}
+
+.nometales:hover {
+    background: #266ad181;
+    -webkit-transform: scale(1.2);
+}
+
+.metalbloquep:hover {
+    background: #05a0ac81;
     -webkit-transform: scale(1.2);
 }
 
@@ -611,68 +708,276 @@ div {
     top: 270px;
     left: 1060px;
 }
+
 #eq31 {
     position: absolute;
     top: 370px;
     left: 1060px;
 }
+
 #eq32 {
     position: absolute;
     top: 370px;
     left: 1140px;
 }
+
 #eq49 {
     position: absolute;
     top: 470px;
     left: 1060px;
 }
+
 #eq50 {
     position: absolute;
     top: 470px;
     left: 1140px;
 }
+
 #eq51 {
     position: absolute;
     top: 470px;
     left: 1220px;
 }
- #eq81 {
+
+#eq81 {
     position: absolute;
     top: 570px;
     left: 1060px;
-} 
-#eq82{
+}
+
+#eq82 {
     position: absolute;
     top: 570px;
     left: 1140px;
-} 
-#eq83{
+}
+
+#eq83 {
     position: absolute;
     top: 570px;
     left: 1220px;
-} 
-#eq84{
+}
+
+#eq84 {
     position: absolute;
     top: 570px;
     left: 1300px;
-} 
+}
+
 #eq113 {
     position: absolute;
     top: 670px;
     left: 1060px;
 }
+
 #eq114 {
     position: absolute;
     top: 670px;
     left: 1140px;
 }
+
 #eq115 {
     position: absolute;
     top: 670px;
     left: 1220px;
-} 
+}
+
 #eq116 {
     position: absolute;
     top: 670px;
     left: 1300px;
-} 
+}
+
+#eq5 {
+    position: absolute;
+    top: 170px;
+    left: 1060px;
+}
+
+#eq6 {
+    position: absolute;
+    top: 170px;
+    left: 1140px;
+}
+
+#eq7 {
+    position: absolute;
+    top: 170px;
+    left: 1220px;
+}
+
+#eq8 {
+    position: absolute;
+    top: 170px;
+    left: 1300px;
+}
+
+#eq9 {
+    position: absolute;
+    top: 170px;
+    left: 1380px;
+}
+
+#eq14 {
+    position: absolute;
+    top: 270px;
+    left: 1140px;
+}
+
+#eq15 {
+    position: absolute;
+    top: 270px;
+    left: 1220px;
+}
+
+#eq16 {
+    position: absolute;
+    top: 270px;
+    left: 1300px;
+}
+
+#eq17 {
+    position: absolute;
+    top: 270px;
+    left: 1380px;
+}
+
+#eq33 {
+    position: absolute;
+    top: 370px;
+    left: 1220px;
+}
+
+#eq34 {
+    position: absolute;
+    top: 370px;
+    left: 1300px;
+}
+
+#eq35 {
+    position: absolute;
+    top: 370px;
+    left: 1380px;
+}
+
+#eq52 {
+    position: absolute;
+    top: 470px;
+    left: 1300px;
+}
+
+#eq53 {
+    position: absolute;
+    top: 470px;
+    left: 1380px;
+}
+
+#eq85 {
+    position: absolute;
+    top: 570px;
+    left: 1380px;
+}
+
+#eq117 {
+    position: absolute;
+    top: 670px;
+    left: 1380px;
+}
+
+#eq118 {
+    position: absolute;
+    top: 670px;
+    left: 1460px;
+}
+
+#eq2 {
+    position: absolute;
+    top: 70px;
+    left: 1460px;
+}
+
+#eq10 {
+    position: absolute;
+    top: 170px;
+    left: 1460px;
+}
+
+#eq18 {
+    position: absolute;
+    top: 270px;
+    left: 1460px;
+}
+
+#eq36 {
+    position: absolute;
+    top: 370px;
+    left: 1460px;
+}
+
+#eq54 {
+    position: absolute;
+    top: 470px;
+    left: 1460px;
+}
+
+#eq86 {
+    position: absolute;
+    top: 570px;
+    left: 1460px;
+}
+
+#etq1 {
+    position: absolute;
+    background-color: #fb2;
+    top: 70px;
+    left: 360px;
+}
+
+#etq2 {
+    position: absolute;
+    background-color: #d1660e;
+    top: 120px;
+    left: 360px;
+    /* margin-right: 750px; */
+}
+#etq3 {
+    position: absolute;
+    background-color: rgb(8, 252, 8);
+    top: 170px;
+    left: 360px;
+    
+ }
+#etq4 {
+    position: absolute;
+    background-color: #6f0ae2ee;
+    top: 220px;
+    left: 360px;
+    
+}
+#etq5 {
+    position: absolute;
+    background-color: #eb11f3;
+    top: 70px;
+    left: 600px;
+    
+}
+#etq6 {
+    position: absolute;
+    background-color: #0cc;
+    top: 120px;
+    left: 600px;
+    
+}
+#etq7 {
+    position: absolute;
+    background-color: rgb(49, 135, 248);
+    top: 170px;
+    left: 600px;
+    
+}
+#etq8 {
+    position: absolute;
+    background-color: #06D964;
+    top: 220px;
+    left: 600px;
+    
+}
