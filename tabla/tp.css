@@ -7,70 +7,81 @@ div {
 }
 
 .texto {
-    text-align: right;
+     text-align: center; 
+     position: absolute;
     margin-top: 95px;
     margin-right: 870px;
-     font-family: 'Trebuchet MS'; 
+    font-family: 'Trebuchet MS';
 }
+/* 
 .texto1 {
-    text-align: right;
-    margin-top: 30px;
-    margin-right: 825px;
-     font-family: 'Trebuchet MS'; 
+     text-align: center; 
+     margin-top: 30px;
+    margin-right: 825px; 
+    font-family: 'Trebuchet MS';
 }
+
 .texto2 {
-    text-align: right;
-    margin-top: 30px;
-    margin-right: 825px;
-    font-family: 'Trebuchet MS'; 
+     text-align: right; 
+     margin-top: 30px;
+    margin-right: 825px; 
+    font-family: 'Trebuchet MS';
 }
 
 .texto3 {
-    text-align: right;
+    text-align: right; 
     margin-top: 30px;
-    margin-right: 780px;
-     font-family: 'Trebuchet MS'; 
+    margin-right: 780px; 
+    font-family: 'Trebuchet MS';
 }
 
 .texto4 {
     text-align: right;
     margin-top: 35px;
-    margin-right: 855px;
-    font-family: 'Trebuchet MS'; 
-    
-}
-.texto5 {
-    text-align: right;
-    margin-top: -185px;
-    margin-right: 625px;
+    margin-right: 855px; 
     font-family: 'Trebuchet MS';
 }
+
+.texto5 {
+    text-align: right;
+     margin-top: -185px;
+    margin-right: 625px; 
+    font-family: 'Trebuchet MS';
+}
+
 .texto6 {
     text-align: right;
     margin-top: 30px;
-    margin-right: 570px;
+    margin-right: 570px; 
     font-family: 'Trebuchet MS';
-} 
+}
+
 .texto7 {
     text-align: right;
     margin-top: 30px;
-    margin-right: 610px;
+    margin-right: 610px; 
     font-family: 'Trebuchet MS';
 }
+
 .texto8 {
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 600px; 
+    font-family: 'Trebuchet MS';
+} */
+
+/* .texto9 {
     text-align: right;
     margin-top: 30px;
     margin-right: 600px;
     font-family: 'Trebuchet MS';
-} 
-
+}  */
 
 .caja {
     width: 30px;
     height: 40px;
     text-align: left;
     border-radius: 5px;
-    
 }
 
 .atomico {
@@ -91,6 +102,34 @@ div {
 .peso {
     font-size: 10px;
     line-height: 0px;
+}
+
+.rojo {
+    color: red;
+    font-size: 25px;
+    line-height: 0px;
+}
+
+.blanco {
+    color: white;
+    font-size: 25px;
+    line-height: 0;
+}
+
+.verde {
+    color: rgba(197, 63, 179, 0.979);
+    font-size: 25px;
+    line-height: 0px;
+}
+
+.gris {
+    background: grey;
+    -webkit-transition-duration: 0.9s;
+}
+
+.gris:hover {
+    background: gray;
+    -webkit-transform: scale(1.2);
 }
 
 .gas {
@@ -939,45 +978,54 @@ div {
     left: 360px;
     /* margin-right: 750px; */
 }
+
 #etq3 {
     position: absolute;
     background-color: rgb(8, 252, 8);
     top: 170px;
     left: 360px;
-    
- }
+}
+
 #etq4 {
     position: absolute;
     background-color: #6f0ae2ee;
     top: 220px;
     left: 360px;
-    
 }
+
 #etq5 {
     position: absolute;
     background-color: #eb11f3;
     top: 70px;
     left: 600px;
-    
 }
+
 #etq6 {
     position: absolute;
     background-color: #0cc;
     top: 120px;
     left: 600px;
-    
 }
+
 #etq7 {
     position: absolute;
     background-color: rgb(49, 135, 248);
     top: 170px;
     left: 600px;
-    
 }
+
 #etq8 {
     position: absolute;
+    /* position: center; */
     background-color: #06D964;
     top: 220px;
     left: 600px;
-    
 }
+
+/* #etq9 {
+    position: absolute;
+    background-color: rgb(217, 6, 6);
+    top: 70px;
+    left: 790px;
+    
+} */
